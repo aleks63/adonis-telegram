@@ -1,7 +1,7 @@
 'use strict'
 
 const Env = use('Env')
-const path = require('path')
+const path = use('path')
 
 module.exports = {
   token: Env.getOrFail('TELEGRAM_TOKEN'),
